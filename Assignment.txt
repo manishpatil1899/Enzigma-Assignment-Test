@@ -1,0 +1,35 @@
+Develop a To-Do list application where users can create, read, update, delete the tasks user want to maintain on Todo work list.[Text Wrapping Break]
+You can use either Node.js or any other backend technology.
+Set-up Requirements
+• Server-side
+▪ Server
+To use Node.js with Express.js to set up the server.
+▪ Database
+Use MongoDB to store the to-do list.
+▪ APIs
+GET /api/tasks - Retrieve all tasks.
+POST /api/task - Create a new task.
+PUT /api/task/:id - Update a task by ID.
+DELETE /api/task/:id - Delete a task by ID.
+• Client-side And UI
+▪ Framework
+Use Angular to build the frontend.
+▪ Components[Text Wrapping Break]
+1. Task List Component - displays the list of tasks.[Text Wrapping Break]
+2. Task Form Component - A form to create and update tasks.
+▪ Services[Text Wrapping Break]1. Task Service - Handle API calls to the backend.
+Functionality
+• Process and Tasks
+1. Add task - allow users to add a new task .
+2. View task – Display and navigate the task list.
+3. Edit task – allow user to update existing task.
+4. Delete task – allow user to delete task.
+
+Page | 6 of 8
+• UI/UX
+1. UI should be user friendly and easy to navigate.
+2. Ensure responsive UI design for both desktop and mobile views.[Text Wrapping Break]
+• Unit and UI Testing
+1. For server-side use Mocha for writing the unit tests.
+2. Write the appropriate test cases and test the implementation accordingly.
+3. For client-side use Angular default UI unit tests libraries.
